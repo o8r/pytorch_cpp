@@ -368,7 +368,16 @@ $ sudo apt install g++-8
 
 ### 4. Execution
 Please move to the directory of each model and refer to "README.md".
-
+  
+For example, for Dimensionality_Reduction/AE1d, run below commands:
+```bash
+$ cd Dimensionaly_Reduction/AE1d
+$ mkdir build
+$ cmake -DTorch_DIR=~/lib/libtourch/share/cmake/Torch/ ..
+$ cmake --build --config Release
+```
+where ``Torch_DIR`` is the directory in which LibTorch is installed (and OpenCV is installed with default configuration by ``apt install libopencv-dev``).
+  
 </details>
   
 ## Utility
