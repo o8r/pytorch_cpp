@@ -503,9 +503,9 @@ License (zlib) : https://zlib.net/zlib_license.html <br>
 
 ### Scores
 
-|Benchmark|Config|Dataset|wallclock|#epochs|sec/epoch|
-|:---     |:---  |   ---:|     ---:|   ---:|     ---:|
-|AE1d     |gpu0|Normal|69m58.783s|300|13.974|
+|Benchmark|Config|Dataset|train (WCT)|#epochs|sec/epoch|test (WCT)|
+|:---     |:---  |   ---:|       ---:|   ---:|     ---:|      ---:|
+|AE1d     |gpu0|Normal|69m58.783s|300|13.974|13.745|
 
 </details>
 
