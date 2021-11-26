@@ -488,7 +488,27 @@ Official (zlib) : https://zlib.net/ <br>
 License (zlib) : https://zlib.net/zlib_license.html <br>
 
 </details>
+
+## Examinations
+<details>
+<summary>Benchmark scores</summary>
   
+### Configurations
+- 2x Intel Xeon E5-2620 v4
+- 128 GB Memory
+- 4x Nvidia Tesla V100
+- Ubuntu 20.04 LTS
+- CUDA 11.5
+- cuDNN 8.3.1.22
+
+### Scores
+
+|Benchmark|Config|Dataset|wallclock|#epochs|sec/epoch|
+|:---     |:---  |   ---:|     ---:|   ---:|     ---:|
+|AE1d     |gpu0|Normal|69m58.783s|300|13.974|
+
+</details>
+
 ## Conclusion
 I hope this repository will help many programmers by providing PyTorch sample programs written in C++.<br>
 If you have any problems with the source code of this repository, please feel free to "issue".<br>
